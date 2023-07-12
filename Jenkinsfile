@@ -16,6 +16,7 @@ pipeline {
          }
          stage('Build') {
              steps {   
+                  sh 'java --version'
                   sh 'gradle --version'
                   sh 'gradle clean build'
              }              
