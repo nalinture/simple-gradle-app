@@ -2,10 +2,10 @@ package com.gradlehello;
 
 import org.junit.Test;
 
-public class GradleAppTest {
+public class test {
 
     @Test
     public void verifyNoExceptionThrown() {
-        GradleApp.main(new String[]{});
+        hello.main(new String[]{});
     }
 }
