@@ -1,6 +1,6 @@
-package com.tomgregory;
+package com.gradlehello;
 
-public class GradleTutorial {
+public class GradleApp {
     public static void main(String[] args) {
         System.out.println("Hello! I am Gradle 4tw!");
     }
