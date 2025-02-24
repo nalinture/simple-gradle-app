@@ -1,0 +1,13 @@
+{
+  "name": "k6-load-test",
+  "version": "1.0.0",
+  "description": "K6 Load Testing POC",
+  "scripts": {
+    "generate-k6": "openapi-generator-cli generate -i api.yaml -g k6 -o ./k6-main/ --skip-validate-spec",
+    "run-k6": "npx k6 run --vus 10 --iterations 10 ./k6-main/script.js"
+  },
+  "devDependencies": {
+    "k6": "^0.46.0",
+    "openapi-generator-cli": "^2.5.2"
+  }
+}
